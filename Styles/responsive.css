@@ -83,6 +83,10 @@
 }
 
 @media screen and (min-width:1024px) {
+    .btn{
+        padding: 12px 35px;
+        font-size: 18px;
+    }
     .nav-logo img {
         width: 85px;
         height: 40px;
@@ -99,6 +103,9 @@
 
     .nav-items {
         gap: 30px;
+    }
+    .nav-items a {
+        font-size: 20px;
     }
 
     /* Header banner */

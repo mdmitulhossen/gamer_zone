@@ -35,8 +35,10 @@
     font-weight: 600;
     /* font-size: 20px; */
     color: white;
+    cursor: pointer;
 
 }
+
 
 /* Header Related */
 /* nav */
@@ -61,6 +63,10 @@ nav {
     text-decoration: none;
     font-weight: 600;
     color: var(--navitemColor);
+    transition: color 0.3s ease-in-out;
+}
+.nav-items a:hover {
+    color: #F948B2;
 }
 
 .nav-container {
@@ -91,6 +97,7 @@ nav {
     font-weight: 600;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
 
@@ -279,11 +286,50 @@ nav {
     width: 350px;
     border-radius: 15px 15px 5px 5px;
     /* border: 3px solid red; */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
     padding-bottom: 10px;
     overflow: hidden;
 }
-
+.card-image-container{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.card-image-container div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0b0223be;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.card-image-container div img{
+    width: 30px;
+    height: 30px;
+}
+.card-image-container div i{
+    color: white;
+    font-size: 40px;
+}
+.card-image-container div p{
+   color: #FF42A5;
+   font-weight: 700;
+   font-size: 20px;
+}
+.card-image-container:hover div{
+    opacity: 1;
+    /* box-shadow: #FF42A5 0px 0px 0px 2px, #ff42a49b 0px 4px 6px -1px, #ff42a419 0px 1px 0px inset; */
+    border: 4px solid #ff42a4e0;
+}
 .card img {
     width: 100%;
     max-height: 550px;
@@ -372,10 +418,12 @@ margin-top: 450px;
 .tag-content {
     display: flex;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 50px;
     padding: 5px;
     justify-self: center;
+    transition: all 0.1s linear;
+    cursor: pointer;
 }
 .tag-content p{
     font-weight: 700;
@@ -386,6 +434,13 @@ margin-top: 450px;
 .tag-content img{
     width: 40px;
     height: 40px;
+}
+.tag-content:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+.tag-content:hover p{
+    color: #FF42A5;
 }
 
 /* footer style */
