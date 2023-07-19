@@ -77,7 +77,9 @@ nav {
     align-items: center;
     flex-direction: column;
     gap: 30px;
+
 }
+
 
 .nav-items {
     display: flex;
@@ -185,10 +187,18 @@ nav {
 .red {
     background-image: var(--linear);
     margin-right: 10px;
+    /* transition: all 0.5s linear; */
+}
+.red:hover{
+    background-image: linear-gradient(90deg, #e63490ed 0%, #cd1574cf 100%);
 }
 
 .blue {
     background-color: #4EC5F7;
+    transition: all 0.3s linear;
+}
+.blue:hover{
+    background-color: #0e90c8e8;
 }
 
 
@@ -231,6 +241,9 @@ nav {
 .gamer-btn {
     background-image: var(--linear);
     margin-bottom: 15px;
+}
+.gamer-btn:hover{
+    background-image: linear-gradient(90deg, #e63490ed 0%, #cd1574cf 100%);
 }
 
 .gamer-moral span {
@@ -477,6 +490,10 @@ margin-top: 450px;
     text-decoration: none;
     color: white;
     font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+.footer-link a:hover,.privacy a:hover{
+    color: #F948B2;
 }
 .footer-link{
     display: flex;
@@ -498,11 +515,13 @@ margin-top: 450px;
  width: 30px;
  height: 30px;
 }
+
 .privacy a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.792);
     font-weight: 600;
     font-size: 16px;
+    transition: color 0.3s ease-in-out;
 }
 .privacy{
     display: flex;
