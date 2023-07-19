@@ -71,6 +71,9 @@
         width: 230px;
         height: 280px;
     }
+    .play-online-container{
+        margin-top: 650px;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -162,7 +165,7 @@
     .play-container{
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 150px;
+        margin-top: 170px;
         padding: 0px 140px;
     }
     .play-content{
@@ -176,6 +179,14 @@
     .play-image div {
         width: 300px;
         transform: translate(-50%,-50%);
+    }
+    .play-online-container{
+        flex-direction: row-reverse;
+        margin-top: 250px;
+        
+    }
+    .play-online-content{
+        text-align: left;
     }
 
 }
@@ -216,10 +227,13 @@
      
     }
     .play-container{
-        margin-top: 300px;
+        margin-top: 200px;
     }
     .play-title{
         font-size: 50px;
+    }
+    .play-online-container{
+        margin-top: 400px;
     }
 
 }
