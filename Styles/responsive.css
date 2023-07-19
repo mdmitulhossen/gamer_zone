@@ -1,0 +1,53 @@
+@media screen and (min-width:768px) {
+    .logo {
+        font-size: 35px;
+    }
+
+    .nav-logo img {
+        width: 65px;
+        height: 30px;
+
+    }
+
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    .nav-items {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    nav {
+        margin-top: 0px;
+        padding: 10px 0px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .nav-logo img {
+        width: 85px;
+        height: 40px;
+    }
+
+    .logo {
+        font-size: 45px;
+    }
+
+    .nav-container {
+
+        gap: 30px;
+    }
+
+    .nav-items {
+
+        gap: 30px;
+    }
+
+}
+
+@media screen and (min-width:1440px) {}
