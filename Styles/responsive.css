@@ -48,15 +48,17 @@
 
 
 
-  
+
     /* game video */
     .card {
         width: 300px;
     }
-    .card img{
+
+    .card img {
         height: 350px;
     }
-    .game-video-items{
+
+    .game-video-items {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
@@ -67,26 +69,37 @@
     .play-image div {
         width: 500px;
     }
+
     .small {
         width: 230px;
         height: 280px;
     }
-    .play-online-container{
+
+    .play-online-container {
         margin-top: 650px;
     }
 
 
     /* tag */
-    .tag-container{
+    .tag-container {
+        margin-top: 50px;
+    }
+
+    .career {
         margin-top: 600px;
+    }
+
+    .career-content {
+        padding: 10px 100px;
     }
 }
 
 @media screen and (min-width:1024px) {
-    .btn{
+    .btn {
         padding: 12px 35px;
         font-size: 18px;
     }
+
     .nav-logo img {
         width: 85px;
         height: 40px;
@@ -104,6 +117,7 @@
     .nav-items {
         gap: 30px;
     }
+
     .nav-items a {
         font-size: 20px;
     }
@@ -170,50 +184,59 @@
     .card {
         width: 290px;
     }
-    .card img{
+
+    .card img {
         height: 340px;
     }
 
-/* play */
-    .play-container{
+    /* play */
+    .play-container {
         flex-direction: row;
         justify-content: space-between;
         margin-top: 170px;
         padding: 0px 140px;
     }
-    .play-content{
+
+    .play-content {
         text-align: right;
         margin-right: 50px;
     }
+
     .small {
         width: 150px;
         height: 170px;
     }
+
     .play-image div {
         width: 300px;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
-    .play-online-container{
+
+    .play-online-container {
         flex-direction: row-reverse;
         margin-top: 250px;
-        
+
     }
-    .play-online-content{
+
+    .play-online-content {
         text-align: left;
     }
-    .tag-container{
-        margin-top: 200px;
+
+    .tag-container {
+        margin-top: 100px;
         display: flex;
         flex: 1 1 1 1 1;
         align-items: center;
         padding: 0px 100px;
         row-gap: 50px;
     }
-    .tag-content img{
+
+    .tag-content img {
         width: 50px;
         height: 50px;
     }
-    .tag-content p{
+
+    .tag-content p {
         font-weight: 700;
         margin-left: 5px;
         color: var(--titleColor);
@@ -221,26 +244,56 @@
     }
 
     /* footer */
-    .footer-logo{
+    .footer-logo {
         font-size: 45px;
     }
-    .footer-title img{
+
+    .footer-title img {
         width: 60px;
     }
-    .footer-social{
+
+    .footer-social {
         justify-content: center;
-    }
-    .footer-social svg{
-        width: 40px;
-        height: 40px;
-       }
-       .privacy,.footer-link{
-        
-        gap: 40px;
-        justify-content: center;
-       
     }
 
+    .footer-social svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .privacy,
+    .footer-link {
+
+        gap: 40px;
+        justify-content: center;
+
+    }
+
+
+    .career-container {
+        flex-direction: row;
+        height: 600px;
+        padding: 0 0 0 100px;
+        gap: 30px;
+        margin-top: -350px;
+    }
+
+    .career-content {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .career-image {
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .career-image img {
+        width: 100%;
+        height: 100%;
+    }
+  
 }
 
 
@@ -260,46 +313,59 @@
     } */
 
     /* game video */
-    .game-video{
+    .game-video {
         margin-top: 80px;
     }
+
     .card {
         width: 290px;
     }
-    .card img{
+
+    .card img {
         height: 340px;
     }
 
     .play-image div {
-       
+
         width: 450px;
-        
+
     }
+
     .small {
         width: 220px;
         height: 270px;
-     
+
     }
-    .play-container{
+
+    .play-container {
         margin-top: 200px;
     }
-    .play-title{
+
+    .play-title {
         font-size: 50px;
     }
-    .play-online-container{
+
+    .play-online-container {
         margin-top: 400px;
     }
 
-    .tag-container{
-        margin-top: 300px;
+    .tag-container {
+        margin-top: 100px;
         padding: 0 240px;
     }
-    .privacy,.footer-link{
-        
+
+    .privacy,
+    .footer-link {
+
         gap: 50px;
         justify-content: center;
-       
+
     }
+    .career-content{
+        padding: 10px 50px;
+    }
+    
+    
 
 }
 
@@ -315,19 +381,24 @@
         width: 1920px;
     }
 
-    .gamer-container,.play-container {
+    .gamer-container,
+    .play-container {
         padding: 0px 200px;
     }
-    
+
 
     .card {
         width: 340px;
     }
-    .card img{
+
+    .card img {
         height: 400px;
     }
 
-    .tag-container{
+    .tag-container {
         padding: 0px 400px;
+    }
+    .career-content{
+        padding: 10px 100px;
     }
 }
